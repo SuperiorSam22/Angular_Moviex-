@@ -1,0 +1,55 @@
+.login-container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffe645 0%, #e2aa02 100%);
+    position: absolute;
+
+    .logo{
+        font-size: 60px;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 10px;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+    }
+    .desc{
+        font-size: 34px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 5px;
+        position: absolute;
+        top: 200px;
+        right: 50px;
+        text-align: right;        
+    }
+    .login-form{
+        width: 500px;
+        height: 300px;
+        padding: 20px;
+        background-color: #fff;
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 20px #383838;
+    }
+    .form-group{
+        margin: 20px;
+    }
+    label{
+        font-weight: bold;
+    }
+    .btn-container{
+        position: relative;
+        .btn{
+            margin-top: 30px;           
+            margin-left: 20px;           
+        }
+        .error{
+            position: absolute;
+            top: 32px;
+            right: 0px;
+            color: red;
+        }
+    }
+}
