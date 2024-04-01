@@ -20,7 +20,29 @@
         position: absolute;
         top: 200px;
         right: 50px;
-        text-align: right;
-        
-     }
+        text-align: right;        
+    }
+    .login-form{
+        width: 500px;
+        height: 300px;
+        padding: 20px;
+        background-color: #fff;
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 20px #383838;
+    }
+    .form-group{
+        margin: 20px;
+    }
+    label{
+        font-weight: bold;
+    }
+    .btn-container{
+        .btn{
+            margin-left: 20px;
+            
+        }
+    }
 }
