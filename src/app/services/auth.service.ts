@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Route } from '@angular/router';
+import { Route, Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
@@ -7,7 +7,7 @@ import { Route } from '@angular/router';
 export class AuthService {
 
   constructor(
-    
+    private router: Router,
   ) { }
 
   login(uname: string, pword: string){
