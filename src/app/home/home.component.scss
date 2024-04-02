@@ -50,3 +50,19 @@
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 }
+
+.star{
+    position: relative;
+    display: inline-block;
+    font-size: 35px;
+    color: #d3d3d3;
+}
+.full{
+    color: red;
+}
+.half{
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    color: red;
+}
