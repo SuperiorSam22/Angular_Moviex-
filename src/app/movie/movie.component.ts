@@ -13,6 +13,8 @@ export class MovieComponent implements OnInit {
   url = '';
   movies: any;
   movie: any;
+  userName: string = '';
+  userReview: string = '';
 
   constructor(private route: ActivatedRoute, private http: HttpClient) {}
 
@@ -41,5 +43,21 @@ export class MovieComponent implements OnInit {
         this.movie = this.movies[index];
       }
     });
+  }
+
+  addReview(){
+    if(this.userName.trim() && this.userReview.trim()){
+      if(!this.movie.reviews){
+        this.movie.reviews = [];
+      }
+      this.movie.reviews.push({
+        author: this.userName,
+        published_on: new Date(),
+        rating: 0,
+        text: this.userReview
+      });
+      this.userName = '';
+      this.userReview= '';
+    }
   }
 }
