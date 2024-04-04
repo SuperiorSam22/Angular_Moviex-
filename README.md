@@ -21,7 +21,7 @@ To get a local copy up and running follow these simple steps.
 1. Clone the repository
 
    ```sh
-   git clone https://github.com/yourusername/movie-review-app.git
+   https://github.com/SuperiorSam22/Angular_Moviex-.git
 
 ### Run 
 1. Go to the project directory  
