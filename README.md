@@ -14,7 +14,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-- Node.js and npm installed on your local machine
+- Node.js and npm installed on your local machine (I've used v16.20.2)
 
 ### Installation
 
